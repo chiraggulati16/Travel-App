@@ -7,14 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		00979E26B36F44A79E392B20 /* IBMPlexMono-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9D8A6300E73044D8A9CA796F /* IBMPlexMono-SemiBold.ttf */; };
 		00E356F31AD99517003FC87E /* TourismAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* TourismAppTests.m */; };
 		0C80B921A6F3F58F76C31292 /* libPods-TourismApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-TourismApp.a */; };
+		130E1C78F29849C0B4763FB8 /* IBMPlexMono-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7924EA3F4BCA4D018F4EFD12 /* IBMPlexMono-Light.ttf */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		420826F5386B0824AEA5DF36 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 2B122809271EA518826281C4 /* PrivacyInfo.xcprivacy */; };
 		7699B88040F8A987B510C191 /* libPods-TourismApp-TourismAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-TourismApp-TourismAppTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		A7FBB9A0BBF7451D949E043D /* IBMPlexMono-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 750CED5B127D47DCA523CE87 /* IBMPlexMono-Medium.ttf */; };
+		B8500749C5CD4766A8BED1C7 /* IBMPlexMono-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 183EFDD06319461892A38699 /* IBMPlexMono-Thin.ttf */; };
+		CD456BD7B52943AB81E542A1 /* IBMPlexMono-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D0FBFDC5BAD0431287904274 /* IBMPlexMono-ExtraLight.ttf */; };
+		D01C93104DD94ECF9AE0F817 /* IBMPlexMono-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C3DCC550B47A48CBAD7F9798 /* IBMPlexMono-Bold.ttf */; };
+		F546572B7DDA4DE4B1FD1C16 /* IBMPlexMono-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F2447313DECD491C841C3545 /* IBMPlexMono-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,15 +45,22 @@
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = TourismApp/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = TourismApp/main.m; sourceTree = "<group>"; };
 		13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PrivacyInfo.xcprivacy; path = TourismApp/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		183EFDD06319461892A38699 /* IBMPlexMono-Thin.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "IBMPlexMono-Thin.ttf"; path = "../src/assets/fonts/IBMPlexMono-Thin.ttf"; sourceTree = "<group>"; };
 		19F6CBCC0A4E27FBF8BF4A61 /* libPods-TourismApp-TourismAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TourismApp-TourismAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B122809271EA518826281C4 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = TourismApp/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		3B4392A12AC88292D35C810B /* Pods-TourismApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TourismApp.debug.xcconfig"; path = "Target Support Files/Pods-TourismApp/Pods-TourismApp.debug.xcconfig"; sourceTree = "<group>"; };
 		5709B34CF0A7D63546082F79 /* Pods-TourismApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TourismApp.release.xcconfig"; path = "Target Support Files/Pods-TourismApp/Pods-TourismApp.release.xcconfig"; sourceTree = "<group>"; };
 		5B7EB9410499542E8C5724F5 /* Pods-TourismApp-TourismAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TourismApp-TourismAppTests.debug.xcconfig"; path = "Target Support Files/Pods-TourismApp-TourismAppTests/Pods-TourismApp-TourismAppTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5DCACB8F33CDC322A6C60F78 /* libPods-TourismApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TourismApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		750CED5B127D47DCA523CE87 /* IBMPlexMono-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "IBMPlexMono-Medium.ttf"; path = "../src/assets/fonts/IBMPlexMono-Medium.ttf"; sourceTree = "<group>"; };
+		7924EA3F4BCA4D018F4EFD12 /* IBMPlexMono-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "IBMPlexMono-Light.ttf"; path = "../src/assets/fonts/IBMPlexMono-Light.ttf"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = TourismApp/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-TourismApp-TourismAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TourismApp-TourismAppTests.release.xcconfig"; path = "Target Support Files/Pods-TourismApp-TourismAppTests/Pods-TourismApp-TourismAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		9D8A6300E73044D8A9CA796F /* IBMPlexMono-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "IBMPlexMono-SemiBold.ttf"; path = "../src/assets/fonts/IBMPlexMono-SemiBold.ttf"; sourceTree = "<group>"; };
+		C3DCC550B47A48CBAD7F9798 /* IBMPlexMono-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "IBMPlexMono-Bold.ttf"; path = "../src/assets/fonts/IBMPlexMono-Bold.ttf"; sourceTree = "<group>"; };
+		D0FBFDC5BAD0431287904274 /* IBMPlexMono-ExtraLight.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "IBMPlexMono-ExtraLight.ttf"; path = "../src/assets/fonts/IBMPlexMono-ExtraLight.ttf"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		F2447313DECD491C841C3545 /* IBMPlexMono-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "IBMPlexMono-Regular.ttf"; path = "../src/assets/fonts/IBMPlexMono-Regular.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +115,21 @@
 			name = TourismApp;
 			sourceTree = "<group>";
 		};
+		25D5EF5307A74A939E389F39 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C3DCC550B47A48CBAD7F9798 /* IBMPlexMono-Bold.ttf */,
+				D0FBFDC5BAD0431287904274 /* IBMPlexMono-ExtraLight.ttf */,
+				7924EA3F4BCA4D018F4EFD12 /* IBMPlexMono-Light.ttf */,
+				750CED5B127D47DCA523CE87 /* IBMPlexMono-Medium.ttf */,
+				F2447313DECD491C841C3545 /* IBMPlexMono-Regular.ttf */,
+				9D8A6300E73044D8A9CA796F /* IBMPlexMono-SemiBold.ttf */,
+				183EFDD06319461892A38699 /* IBMPlexMono-Thin.ttf */,
+			);
+			name = Resources;
+			path = "";
+			sourceTree = "<group>";
+		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -127,6 +156,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				25D5EF5307A74A939E389F39 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -249,6 +279,13 @@
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				420826F5386B0824AEA5DF36 /* PrivacyInfo.xcprivacy in Resources */,
+				D01C93104DD94ECF9AE0F817 /* IBMPlexMono-Bold.ttf in Resources */,
+				CD456BD7B52943AB81E542A1 /* IBMPlexMono-ExtraLight.ttf in Resources */,
+				130E1C78F29849C0B4763FB8 /* IBMPlexMono-Light.ttf in Resources */,
+				A7FBB9A0BBF7451D949E043D /* IBMPlexMono-Medium.ttf in Resources */,
+				F546572B7DDA4DE4B1FD1C16 /* IBMPlexMono-Regular.ttf in Resources */,
+				00979E26B36F44A79E392B20 /* IBMPlexMono-SemiBold.ttf in Resources */,
+				B8500749C5CD4766A8BED1C7 /* IBMPlexMono-Thin.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
