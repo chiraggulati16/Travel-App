@@ -4,7 +4,7 @@ import {Colors, Fonts} from '../../utils/theme';
 
 export const styles = StyleSheet.create({
   mainContainer: {
-    height: moderateScale(Platform.OS == "android" ? 290 : 310),
+    height: moderateScale(Platform.OS == "android" ? 310 : 310),
     width: scale(250),
     shadowColor: Colors.shadowColor,
     shadowOffset: {width: 1, height: 1},
@@ -31,6 +31,7 @@ export const styles = StyleSheet.create({
     color: Colors.black,
     marginTop: verticalScale(3),
     marginHorizontal: scale(20),
+    maxHeight: moderateScale(50)
   },
 
   icon: {

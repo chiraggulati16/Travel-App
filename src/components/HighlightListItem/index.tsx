@@ -25,7 +25,7 @@ const HighlightListItem = ({data}: HighlightListProps) => {
           />
 
           <Text style={styles.heading}>{data?.name}</Text>
-          <Text style={styles.description}>{data?.description}</Text>
+          <Text style={styles.description} numberOfLines={2}>{data?.description}</Text>
         </View>
         <View style={styles.icon}>
           <Images.RoundArrow width={scale(30)} height={scale(30)} />
